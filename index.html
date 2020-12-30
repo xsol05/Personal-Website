@@ -2,7 +2,7 @@
 <html lang="en"> <!--root element of an HTML page-->
     <head> <!--contains meta information-->
         <meta charset="UTF-8"> <!--defines the charset-->
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--makes the website look good on all devices and screen resolutions-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--makes the website look good on all devices and screen resolutions-->
         <link rel="stylesheet" href="styles.css"> <!--links this file to styles.css-->
         <link rel="icon" type="image/png" sizes="48x48" href="./Assets/mag favicon.png"> <!--favicon-->
         <!--using Google fonts-->
@@ -15,12 +15,14 @@
     </head>
 
     <body>
-        <nav>
-            <a href="index.html"><img src="./Assets/Logo.png" alt="Logo" width="160" height="75"></a>
-
+        <nav class="navbar">
+            <a href="index.html" class="logo"><img src="./Assets/Logo.png" alt="Logo" width="160" height="75"></a>
+            <a href="work.html">work</a>
+            <a href="experience.html">experience</a>
+            <a href="#footer">contact</a> 
         </nav>
 
-        <section class="about">
+        <header class="about">
             <div class="container">
                 <img src="./Assets/profile picture.jpg" alt="Magdeline Huang"/>
                 <h1>Hi, I'm Magdeline!</h1>
@@ -31,7 +33,7 @@
                 <img src="./Assets/linkedin.png" alt="linkedin icon"/>
                 <img src="./Assets/github.png" alt="github icon"/>
             </div>
-        </section>
+        </header>
 
         <section class="features">
 
