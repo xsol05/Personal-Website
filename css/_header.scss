@@ -35,8 +35,8 @@
         }
 
         a:hover {
-            border-bottom: 2px solid $primary;
-            padding-bottom: 3px;
+            border-bottom: 2px solid $primary; //underline
+            padding-bottom: 0.5px; //space between text and underline
         }
     }
 }

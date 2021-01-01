@@ -95,7 +95,7 @@ h3 {
 
 #header__links a:hover {
   border-bottom: 2px solid #0E34A0;
-  padding-bottom: 3px;
+  padding-bottom: 0.5px;
 }
 
 #footer {
