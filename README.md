@@ -1,3 +1,3 @@
 # Personal-Website
 
-My very first personal website! 
+Designing and coding my first personal website! :D
