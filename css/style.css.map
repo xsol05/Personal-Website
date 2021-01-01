@@ -8,8 +8,8 @@
         "_globals.scss",
         "_header.scss",
         "_footer.scss",
-        "_about.scss",
-        "_features.scss"
+        "Landing page/_about.scss",
+        "Landing page/_features.scss"
     ],
     "names": [],
     "file": "style.css"
