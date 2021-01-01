@@ -1,0 +1,23 @@
+#footer {
+
+    font-size: 0.9375rem; //15px / 16
+    margin: 30px auto;
+    line-height: 0.8;
+    
+    &__socials {
+        margin-bottom: 8px;
+        
+        a, a:visited {
+            text-decoration: none;
+
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    p, a {
+        margin: 15px 0px 0px 0px;
+    }
+}
+

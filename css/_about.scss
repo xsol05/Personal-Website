@@ -1,0 +1,38 @@
+#about {
+    
+    &__image {
+        margin: 38px; //same margins as text col
+    }
+
+    &__text {
+        max-width: 450px; //ensures the text col doesn't go bigger than this width
+        margin: 38px; //same margins as image col
+
+        h1 {
+            margin: 0px; //removes the default margin
+        }
+
+        &-bio {
+            p {
+                a, a:visited {
+                    border-bottom: 2px solid $primary; //underline
+                    padding-bottom: 0.5px; //space between text and underline
+                    text-decoration: none;
+                    color: $primary;
+                }
+            }
+        }
+
+        &-socials {
+            padding-top: 15px;
+    
+            a, a:visited {
+                text-decoration: none;
+    
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

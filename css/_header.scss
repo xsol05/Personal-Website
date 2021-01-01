@@ -1,0 +1,42 @@
+#header {
+
+    nav {
+        padding: 24px;
+    }
+
+    // //Mobile menu
+    // &__menu {
+    //     span {
+    //         display: block;
+    //         width: 26px;
+    //         height: 2px;
+    //         background-color: $primary;
+
+    //         &:not(:last-child) {
+    //             margin-bottom: 3px;
+    //         }
+    //     }
+    // }
+
+    &__links {
+        a {
+            &:not(:last-child) { //margins for "work" and "experience"
+                margin-right: 110px;
+            }
+
+            &:last-child { //margins for "contact"
+                margin-right: 45px;
+            }
+        }
+
+        a, a:visited {
+            text-decoration: none;
+            color: $primary;
+        }
+
+        a:hover {
+            border-bottom: 2px solid $primary;
+            padding-bottom: 3px;
+        }
+    }
+}

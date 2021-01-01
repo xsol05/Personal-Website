@@ -1,0 +1,79 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box; //includes padding in the final width
+    background-color: $secondary;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25rem; //20px / 16
+    font-weight: 500;
+    line-height: 1.3;
+    color: $primary;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+}
+
+//Flexbox
+.flex {
+    display: flex;
+
+    &-fd-c {
+        flex-direction: column;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+
+    &-fw-w {
+        flex-wrap: wrap;
+    }
+}
+
+//12 Column Grid (64px)
+.layout {
+    max-width: 940px; //12 column grid (60px)
+    margin: auto; //centeres the grid body
+}
+
+//Landing page border
+.border {
+    border-color: $primary;
+    border-style: solid;
+    border-width: 3px;
+}
+
+// //Visibility
+// .hide-for-mobile {
+//     @include breakpoint-down(medium) {
+//         display: none;
+//     }
+// }
+
+// .hide-for-desktop {
+//     @include breakpoint-up(large) {
+//         display: none;
+//     }
+// }
