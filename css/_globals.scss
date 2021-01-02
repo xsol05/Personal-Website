@@ -27,6 +27,20 @@ h3 {
     font-size: 30px;
 }
 
+h5 {
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+
+// button {
+//     font-family: 'Karla', sans-serif;
+//     font-size: 0.9375rem; //15px / 16
+//     font-weight: bold;
+//     cursor: pointer;
+//     border-style: none; //remove the intrinsic border
+//     padding: 5px 33px;
+// }
+
 // a {
 //     target-name:new;
 //     target-new: tab;
@@ -63,7 +77,7 @@ h3 {
     margin: auto; //centeres the grid body
 }
 
-//Landing page border
+//Top page border
 .border {
     border-color: $primary;
     border-style: solid;

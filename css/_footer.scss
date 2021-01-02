@@ -1,10 +1,12 @@
 #footer {
 
-    //font-size: 1.125rem; //18px / 16
+    margin: 0px auto 30px auto;
 
-    font-size: 0.9375rem; //15px / 16
-    margin: 30px auto;
-    line-height: 0.8;
+    h3 {
+        color: $primary;
+        padding: 30px 0px;
+        margin: 0px;
+    }
     
     &__socials {
         margin-bottom: 8px;
@@ -20,6 +22,8 @@
 
     p, a {
         margin: 15px 0px 0px 0px;
+        font-size: 0.9375rem; //15px / 16
+        line-height: 0.8;
     }
 }
 
