@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!-- defines this document to be HTML5 -->
+<html lang="en"> <!-- root element of an HTML page -->
+    <head> <!-- meta information -->
+        <meta charset="UTF-8"> <!-- defines the charset -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes the website look good on all devices and screen resolutions -->
+        <link rel="stylesheet" href="./css/style.css"> <!-- links this file to style.css -->
+        <link rel="icon" type="image/png" sizes="48x48" href="./Assets/mag favicon.png"> <!-- favicon -->
+        <!-- using Google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Vollkorn:wght@700&display=swap" rel="stylesheet"> 
+        <!-- end using Google fonts -->
+        <title>Magdeline Huang | Experience</title> <!-- meta title -->
+        <meta name="description" content="Hi, I'm Magdeline! I am a student at the University of Otago studying Computer Science and Entrepreneurship. I am also a Web Developer at CloudCannon. I create videos, write, and podcast too."> <!-- meta description -->
+        <meta property=”og:title” content="index.html"> <!-- open graph tag -->
+    </head>
+
+    <body>
+        <div class="border">
+            <header id="header" class="layout">
+                <nav class="flex flex-jc-sb flex-ai-c">
+                    <a href="index.html" id="header__logo">
+                        <img src="./Assets/logo old.png" alt="Home" width="160" height="75">
+                    </a>
+
+                    <div id="header__links" class="flex flex-jc-sb flex-ai-c">
+                        <!-- <a href="index.html" id="header__logo">
+                            <img src="./Assets/logo old.png" alt="Logo" width="160" height="75">
+                        </a> -->
+                        <a href="work.html">work</a>
+                        <a href="experience.html">experience</a>
+                        <a href="#footer">contact</a>
+                    </div>
+
+                    <!-- <div id="mobileNav" class="menu-open">
+                        <a href="index.html" class="header__logo hide-for-desktop">
+                            <img src="./Assets/logo old.png" alt="Logo" width="160" height="75">
+                        </a>
+                        <a href="work.html">work</a>
+                        <a href="experience.html">experience</a>
+                        <a href="#footer">contact</a>
+                    </div> -->
+
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <!-- <a href="javascript:void(0);" class="header__menu hide-for-desktop" onclick="myFunction()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a> -->
+                </nav> 
+            </header>
+
+            <section id="experience" class="layout">
+                <h3>My leadership experiences lie in<br>causes I am passionate about.</h3>
+                <div class="flex flex-jc-c flex-fw-w">
+                    <div id="experience__container" class="border">
+                        <h5>Comp Girls Leader</h5>
+                        <p>leader of the University of Otago’s Women in STEM club</p>
+                        <a href="#compgirls">view case</a>
+                        <!-- <button type="button" onclick="#compgirls">view case</button> -->
+                    </div>
+                    <div id="experience__container" class="border">
+                        <h5>Promotional Director</h5>
+                        <p>leader of the Design & Camera Crews in <em>Malam Malaysia</em></p>
+                        <a href="#promo">view case</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="compgirls">
+            <h3>Comp Girls Otago</h3>
+        </div>
+
+        <div id="promo">
+            <h3>Promotional Director</h3>
+        </div>
+
+        <footer id="footer" class="flex flex-fd-c flex-jc-sb flex-ai-c">
+            <h3>Contact</h3>
+            <!-- <div class="form">
+                <form action="contact.php" method="post">
+                    Your name<br>
+                    <input type="text" name="cf_name"><br>
+                    Your e-mail<br>
+                    <input type="text" name="cf_email"><br>
+                    Message<br>
+                    <textarea name="cf_message"><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+                </form>
+            </div> -->
+            <div id="footer__socials">
+                <a href="mailto:magdeline0512@gmail.com">
+                    <img src="./Assets/Socials/mail.png" alt="mail" width="49" height="49"/>
+                </a>
+                <a href="https://www.linkedin.com/in/magdelinehuang/">
+                    <img src="./Assets/Socials/linkedin.png" alt="linkedin" width="49" height="49"/>
+                </a>
+                <a href="https://github.com/xsol05">
+                    <img src="./Assets/Socials/github.png" alt="github" width="49" height="49"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCz_1mIreCWjmPu0TSPdBCVg">
+                    <img src="./Assets/Socials/youtube.png" alt="youtube" width="49" height="49"/>
+                </a>
+                <a href="https://magdelinehuang.medium.com/">
+                    <img src="./Assets/Socials/medium.png" alt="medium" width="49" height="49"/>
+                </a>
+                <a href="https://anchor.fm/">
+                    <img src="./Assets/Socials/podcast.png" alt="podcast" width="49" height="49"/>
+                </a>
+            </div>
+            <p>designed and coded with ♡ by Magdeline Huang</p>
+            <p>last updated on January 2021</p>
+            <p>© <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> Magdeline Huang</p> <!-- updates to the current year automatically -->
+            <!-- <a href="https://analytics.google.com/analytics/web/provision/#/provision">stats for nerds</a> -->
+        </footer>
+        
+    </body>
+</html>
