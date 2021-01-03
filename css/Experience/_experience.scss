@@ -35,22 +35,82 @@
 
 #compgirls {
     background-color: $primary;
-    height: 500px;
+    margin: 7px 0px 0px 0px; 
+    padding: 50px 0px 40px 0px;
 
     h3 {
-        padding: 30px 0px;
-        margin: 7px 0px 0px 0px; 
+        padding: 0px;
+        margin: 0px;
         color: $secondary;
+    }
+
+    p {
+        color: $secondary;
+        margin: 10px 0px 30px 0px;
+    }
+
+    .text {
+        max-width: 500px;
+        padding: 0px 10px;
+
+        p {
+            color: $secondary;
+            text-align: justify;
+            font-size: 0.9375rem; //15px / 16
+            line-height: 1.5;
+            margin: 20px 0px;
+        }
+
+        a, a:visited {
+            border-bottom: 1.5px solid $secondary; //underline
+            padding-bottom: 0.5px; //space between text and underline
+            text-decoration: none;
+            color: $secondary;
+        }
+    }
+
+    video {
+        margin: 20px;
     }
 }
 
 #promo {
     background-color: $primary;
-    height: 500px;
+    margin: 7px 0px 0px 0px; 
+    padding: 50px 0px 40px 0px;
 
     h3 {
-        padding: 30px 0px;
-        margin: 9px 0px 0px 0px; 
+        padding: 0px;
+        margin: 0px;
         color: $secondary;
+    }
+
+    p {
+        color: $secondary;
+        margin: 10px 0px 30px 0px;
+    }
+
+    .text {
+        max-width: 400px;
+        padding: 0px 10px;
+
+        p {
+            color: $secondary;
+            text-align: justify;
+            font-size: 0.9375rem; //15px / 16
+            line-height: 1.5;
+            margin: 20px 0px;
+        }
+
+        a, a:visited {
+            border-bottom: 1.5px solid $secondary; //underline
+            padding-bottom: 0.5px; //space between text and underline
+            text-decoration: none;
+            color: $secondary;
+        }
+    }
+
+    video {
+        margin: 20px;
     }
 }
