@@ -52,6 +52,7 @@
     .text {
         max-width: 500px;
         padding: 0px 10px;
+        margin: 20px;
 
         p {
             color: $secondary;
@@ -69,9 +70,9 @@
         }
     }
 
-    iframe {
-        margin: 20px;
-    }
+    // iframe {
+    //     margin: 20px;
+    // }
 }
 
 #promo {
@@ -93,6 +94,7 @@
     .text {
         max-width: 400px;
         padding: 0px 10px;
+        margin: 20px;
 
         p {
             color: $secondary;
@@ -110,7 +112,7 @@
         }
     }
 
-    iframe {
-        margin: 20px;
-    }
+    // iframe {
+    //     margin: 20px;
+    // }
 }

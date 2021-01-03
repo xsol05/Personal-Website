@@ -240,6 +240,7 @@ h5 {
 #compgirls .text {
   max-width: 500px;
   padding: 0px 10px;
+  margin: 20px;
 }
 
 #compgirls .text p {
@@ -255,10 +256,6 @@ h5 {
   padding-bottom: 0.5px;
   text-decoration: none;
   color: #FFFBEF;
-}
-
-#compgirls iframe {
-  margin: 20px;
 }
 
 #promo {
@@ -281,6 +278,7 @@ h5 {
 #promo .text {
   max-width: 400px;
   padding: 0px 10px;
+  margin: 20px;
 }
 
 #promo .text p {
@@ -296,10 +294,6 @@ h5 {
   padding-bottom: 0.5px;
   text-decoration: none;
   color: #FFFBEF;
-}
-
-#promo iframe {
-  margin: 20px;
 }
 
 #work {
