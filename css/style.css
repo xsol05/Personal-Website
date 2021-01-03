@@ -222,24 +222,84 @@ h5 {
 
 #compgirls {
   background-color: #0E34A0;
-  height: 500px;
+  margin: 7px 0px 0px 0px;
+  padding: 50px 0px 40px 0px;
 }
 
 #compgirls h3 {
-  padding: 30px 0px;
-  margin: 7px 0px 0px 0px;
+  padding: 0px;
+  margin: 0px;
   color: #FFFBEF;
+}
+
+#compgirls p {
+  color: #FFFBEF;
+  margin: 10px 0px 30px 0px;
+}
+
+#compgirls .text {
+  max-width: 500px;
+  padding: 0px 10px;
+}
+
+#compgirls .text p {
+  color: #FFFBEF;
+  text-align: justify;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+
+#compgirls .text a, #compgirls .text a:visited {
+  border-bottom: 1.5px solid #FFFBEF;
+  padding-bottom: 0.5px;
+  text-decoration: none;
+  color: #FFFBEF;
+}
+
+#compgirls video {
+  margin: 20px;
 }
 
 #promo {
   background-color: #0E34A0;
-  height: 500px;
+  margin: 7px 0px 0px 0px;
+  padding: 50px 0px 40px 0px;
 }
 
 #promo h3 {
-  padding: 30px 0px;
-  margin: 9px 0px 0px 0px;
+  padding: 0px;
+  margin: 0px;
   color: #FFFBEF;
+}
+
+#promo p {
+  color: #FFFBEF;
+  margin: 10px 0px 30px 0px;
+}
+
+#promo .text {
+  max-width: 400px;
+  padding: 0px 10px;
+}
+
+#promo .text p {
+  color: #FFFBEF;
+  text-align: justify;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  margin: 20px 0px;
+}
+
+#promo .text a, #promo .text a:visited {
+  border-bottom: 1.5px solid #FFFBEF;
+  padding-bottom: 0.5px;
+  text-decoration: none;
+  color: #FFFBEF;
+}
+
+#promo video {
+  margin: 20px;
 }
 
 #work {
