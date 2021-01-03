@@ -223,7 +223,7 @@ h5 {
 #compgirls {
   background-color: #0E34A0;
   margin: 7px 0px 0px 0px;
-  padding: 50px 0px 40px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
 #compgirls h3 {
@@ -234,7 +234,7 @@ h5 {
 
 #compgirls p {
   color: #FFFBEF;
-  margin: 10px 0px 30px 0px;
+  margin: 10px 0px;
 }
 
 #compgirls .text {
@@ -261,7 +261,7 @@ h5 {
 #promo {
   background-color: #0E34A0;
   margin: 7px 0px 0px 0px;
-  padding: 50px 0px 40px 0px;
+  padding: 50px 0px 30px 0px;
 }
 
 #promo h3 {
@@ -272,7 +272,7 @@ h5 {
 
 #promo p {
   color: #FFFBEF;
-  margin: 10px 0px 30px 0px;
+  margin: 10px 0px;
 }
 
 #promo .text {
