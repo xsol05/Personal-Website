@@ -3,6 +3,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #FFFBEF;
+  height: 100%;
 }
 
 *, *::before, *::after {
@@ -17,6 +18,7 @@ body {
   line-height: 1.3;
   color: #0E34A0;
   text-align: center;
+  height: 100%;
 }
 
 h1 {
@@ -79,6 +81,18 @@ h5 {
   border-color: #0E34A0;
   border-style: solid;
   border-width: 3px;
+}
+
+.full-height {
+  position: relative;
+  height: calc(100vh - 15px);
+  width: 100%;
+}
+
+.full-height-half {
+  position: relative;
+  height: calc(80vh - 15px);
+  width: 100%;
 }
 
 #header nav {
@@ -184,13 +198,9 @@ h5 {
   margin: 7px 10px;
 }
 
-#experience {
-  padding: 25px 0px 30px 0px;
-}
-
 #experience h3 {
-  padding-bottom: 10px;
-  margin: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 #experience__container {
@@ -199,6 +209,8 @@ h5 {
   margin: 22px;
   -webkit-box-shadow: 15px 15px #0E34A0;
           box-shadow: 15px 15px #0E34A0;
+  height: 100%;
+  width: 100%;
 }
 
 #experience__container h5 {
@@ -223,7 +235,6 @@ h5 {
 #compgirls {
   background-color: #0E34A0;
   margin: 7px 0px 0px 0px;
-  padding: 50px 0px 0px 0px;
 }
 
 #compgirls h3 {

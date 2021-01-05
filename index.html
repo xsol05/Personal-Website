@@ -1,37 +1,46 @@
 <!DOCTYPE html> <!-- defines this document to be HTML5 -->
-<html lang="en"> <!-- root element of an HTML page -->
-    <head> <!-- meta information -->
-        <meta charset="UTF-8"> <!-- defines the charset -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes the website look good on all devices and screen resolutions -->
-        <link rel="stylesheet" href="./css/style.css"> <!-- links this file to style.css -->
-        <link rel="icon" type="image/png" sizes="48x48" href="./Assets/mag favicon.png"> <!-- favicon -->
-        <!-- using Google fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Vollkorn:wght@700&display=swap" rel="stylesheet"> 
-        <!-- end using Google fonts -->
-        <title>Magdeline Huang</title> <!-- meta title -->
-        <meta name="description" content="Hi, I'm Magdeline! I am a student at the University of Otago studying Computer Science and Entrepreneurship. I am also a Web Developer at CloudCannon. I create videos, write, and podcast too."> <!-- meta description -->
-        <meta property=”og:title” content="index.html"> <!-- open graph tag -->
-    </head>
+<html lang="en">
+<!-- root element of an HTML page -->
 
-    <body> <!-- main contents of the page --> 
-        <div class="border">
-            <header id="header" class="layout">
-                <nav class="flex flex-jc-sb flex-ai-c">
-                    <a href="index.html" id="header__logo">
-                        <img src="./Assets/logo old.png" alt="Home" width="160" height="75">
-                    </a>
+<head>
+    <!-- meta information -->
+    <meta charset="UTF-8"> <!-- defines the charset -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- makes the website look good on all devices and screen resolutions -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- links this file to style.css -->
+    <link rel="icon" type="image/png" sizes="48x48" href="./Assets/mag favicon.png"> <!-- favicon -->
+    <!-- using Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&family=Vollkorn:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- end using Google fonts -->
+    <title>Magdeline Huang</title> <!-- meta title -->
+    <meta name="description"
+        content="Hi, I'm Magdeline! I am a student at the University of Otago studying Computer Science and Entrepreneurship. I am also a Web Developer at CloudCannon. I create videos, write, and podcast too.">
+    <!-- meta description -->
+    <meta property=”og:title” content="index.html"> <!-- open graph tag -->
+</head>
 
-                    <div id="header__links" class="flex flex-jc-sb flex-ai-c">
-                        <!-- <a href="index.html" id="header__logo">
+<body>
+    <!-- main contents of the page -->
+    <div class="border full-height">
+        <header id="header" class="layout">
+            <nav class="flex flex-jc-sb flex-ai-c">
+                <a href="index.html" id="header__logo">
+                    <img src="./Assets/logo old.png" alt="Home" width="160" height="75">
+                </a>
+
+                <div id="header__links" class="flex flex-jc-sb flex-ai-c">
+                    <!-- <a href="index.html" id="header__logo">
                             <img src="./Assets/logo old.png" alt="Logo" width="160" height="75">
                         </a> -->
-                        <a href="work.html">work</a>
-                        <a href="experience.html">experience</a>
-                        <a href="#footer">contact</a>
-                    </div>
+                    <a href="work.html">work</a>
+                    <a href="experience.html">experience</a>
+                    <a href="#footer">contact</a>
+                </div>
 
-                    <!-- <div id="mobileNav" class="menu-open">
+                <!-- <div id="mobileNav" class="menu-open">
                         <a href="index.html" class="header__logo hide-for-desktop">
                             <img src="./Assets/logo old.png" alt="Logo" width="160" height="75">
                         </a>
@@ -40,78 +49,89 @@
                         <a href="#footer">contact</a>
                     </div> -->
 
-                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                    <!-- <a href="javascript:void(0);" class="header__menu hide-for-desktop" onclick="myFunction()">
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <!-- <a href="javascript:void(0);" class="header__menu hide-for-desktop" onclick="myFunction()">
                         <span></span>
                         <span></span>
                         <span></span>
                     </a> -->
-                </nav> 
-            </header>
+            </nav>
+        </header>
 
-            <section id="about" class="flex flex-jc-c flex-ai-c flex-fw-w layout">
-                <div id="about__image">
-                    <img src="./Assets/profile picture.png" alt="Magdeline Huang" width="288.9664" height="342.3328"/>
+        <section id="about" class="flex flex-jc-c flex-ai-c flex-fw-w layout full-height-half">
+            <div id="about__image">
+                <img src="./Assets/profile picture.png" alt="Magdeline Huang" width="288.9664" height="342.3328" />
+            </div>
+            <div id="about__text">
+                <h1>Hi, I'm Magdeline!</h1>
+                <div id="about__text-bio">
+                    <p>I am a student at the<br>University of Otago studying <br><a
+                            href="https://youtu.be/67J5vATQbG4">Computer Science</a> and Entrepreneurship.</p>
+                    <p>I am also a Web Developer at <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+                    <p>I create
+                        <a href="https://www.youtube.com/channel/UCz_1mIreCWjmPu0TSPdBCVg">videos</a>,
+                        <a href="https://magdelinehuang.medium.com/">write</a>, and
+                        <a href="https://anchor.fm/">podcast</a> too.
+                    </p>
                 </div>
-                <div id="about__text">
-                    <h1>Hi, I'm Magdeline!</h1>
-                    <div id="about__text-bio">
-                        <p>I am a student at the<br>University of Otago studying <br><a href="https://youtu.be/67J5vATQbG4">Computer Science</a> and Entrepreneurship.</p>
-                        <p>I am also a Web Developer at <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
-                        <p>I create
-                            <a href="https://www.youtube.com/channel/UCz_1mIreCWjmPu0TSPdBCVg">videos</a>, 
-                            <a href="https://magdelinehuang.medium.com/">write</a>, and
-                            <a href="https://anchor.fm/">podcast</a> too.
-                        </p>
-                    </div>
-                    <div id="about__text-socials">
-                        <a href="mailto:magdeline0512@gmail.com">
-                            <img src="./Assets/Socials/mail.png" alt="mail" width="49" height="49"/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/magdelinehuang/">
-                            <img src="./Assets/Socials/linkedin.png" alt="linkedin" width="49" height="49"/>
-                        </a>
-                        <a href="https://github.com/xsol05">
-                            <img src="./Assets/Socials/github.png" alt="github" width="49" height="49"/>
-                        </a>
-                    </div>
+                <div id="about__text-socials">
+                    <a href="mailto:magdeline0512@gmail.com">
+                        <img src="./Assets/Socials/mail.png" alt="mail" width="49" height="49" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/magdelinehuang/">
+                        <img src="./Assets/Socials/linkedin.png" alt="linkedin" width="49" height="49" />
+                    </a>
+                    <a href="https://github.com/xsol05">
+                        <img src="./Assets/Socials/github.png" alt="github" width="49" height="49" />
+                    </a>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+    </div>
 
-        <section id="features">
+    <section id="features" class="full-height flex flex-jc-c">
+        <div class="layout">
             <h3>I am grateful to have been featured on:</h3>
             <div id="features__links" class="flex flex-jc-c flex-fw-w">
                 <a href="https://www.renews.co.nz/the-uni-student-curing-our-shopping-addiction-with-an-app/">
-                    <img src="./Assets/Features/re news.png" alt="NZ RE:News" width="110" height="110"/>
+                    <img src="./Assets/Features/re news.png" alt="NZ RE:News" width="110" height="110" />
                 </a>
                 <a href="https://podcast.womenintechshow.com/episodes/magdeline-huang">
-                    <img src="./Assets/Features/women in tech.png" alt="Women in Tech Show by Espree Devora" width="110" height="110"/>
+                    <img src="./Assets/Features/women in tech.png" alt="Women in Tech Show by Espree Devora" width="110"
+                        height="110" />
                 </a>
                 <a href="https://www.critic.co.nz/culture/article/8557/students-to-watch-magdeline-huang">
-                    <img src="./Assets/Features/critic.png" alt="Critic: Te Arohi" width="110" height="110"/>
+                    <img src="./Assets/Features/critic.png" alt="Critic: Te Arohi" width="110" height="110" />
                 </a>
-                <a href="https://sevenpie.com/magdeline-huang-a-budding-young-evolutionist-in-the-it-entrepreneurship-realm-who-pays-homage-to-her-roots/">
-                    <img src="./Assets/Features/sevenpie.png" alt="Sevenpie: Malaysia's 1st Lifestyle Content Portal" width="110" height="110"/>
+                <a
+                    href="https://sevenpie.com/magdeline-huang-a-budding-young-evolutionist-in-the-it-entrepreneurship-realm-who-pays-homage-to-her-roots/">
+                    <img src="./Assets/Features/sevenpie.png" alt="Sevenpie: Malaysia's 1st Lifestyle Content Portal"
+                        width="110" height="110" />
                 </a>
                 <a href="https://youtu.be/67J5vATQbG4">
-                    <img src="./Assets/Features/otago uni.png" alt="University of Otago, Dunedin, New Zealand" width="110" height="110"/>
+                    <img src="./Assets/Features/otago uni.png" alt="University of Otago, Dunedin, New Zealand"
+                        width="110" height="110" />
                 </a>
                 <a href="https://www.otago.ac.nz/otago-connection/otago739106.html">
-                    <img src="./Assets/Features/otago connection.png" alt="Otago Connection: Connecting families with student life at Otago" width="110" height="110"/>
+                    <img src="./Assets/Features/otago connection.png"
+                        alt="Otago Connection: Connecting families with student life at Otago" width="110"
+                        height="110" />
                 </a>
                 <a href="https://www.odt.co.nz/business/local-business/hiring-app-pitched-toronto-workshop">
-                    <img src="./Assets/Features/otago daily times.png" alt="Otago Daily Times" width="110" height="110"/>
+                    <img src="./Assets/Features/otago daily times.png" alt="Otago Daily Times" width="110"
+                        height="110" />
                 </a>
                 <a href="https://www.linkedin.com/posts/activity-6741232293882540032-YtP-">
-                    <img src="./Assets/Features/otago museum.png" alt="Otago Museum: 100 WOMEN, 100 WORDS... INFINITE POSSIBILITIES" width="110" height="110"/>
+                    <img src="./Assets/Features/otago museum.png"
+                        alt="Otago Museum: 100 WOMEN, 100 WORDS... INFINITE POSSIBILITIES" width="110" height="110" />
                 </a>
-            </div>  
-        </section>
+            </div>
+        </div>
+    </section>
 
-        <footer id="footer" class="flex flex-fd-c flex-jc-sb flex-ai-c">
-            <h3>Contact</h3>
-            <!-- <div class="form">
+    <footer id="footer" class="flex flex-fd-c flex-jc-sb flex-ai-c">
+        <h3>Contact</h3>
+        <!-- <div class="form">
                 <form action="contact.php" method="post">
                     Your name<br>
                     <input type="text" name="cf_name"><br>
@@ -123,34 +143,36 @@
                     <input type="reset" value="Clear">
                 </form>
             </div> -->
-            <div id="footer__socials">
-                <a href="mailto:magdeline0512@gmail.com">
-                    <img src="./Assets/Socials/mail.png" alt="mail" width="49" height="49"/>
-                </a>
-                <a href="https://www.linkedin.com/in/magdelinehuang/">
-                    <img src="./Assets/Socials/linkedin.png" alt="linkedin" width="49" height="49"/>
-                </a>
-                <a href="https://github.com/xsol05">
-                    <img src="./Assets/Socials/github.png" alt="github" width="49" height="49"/>
-                </a>
-                <a href="https://www.youtube.com/channel/UCz_1mIreCWjmPu0TSPdBCVg">
-                    <img src="./Assets/Socials/youtube.png" alt="youtube" width="49" height="49"/>
-                </a>
-                <a href="https://magdelinehuang.medium.com/">
-                    <img src="./Assets/Socials/medium.png" alt="medium" width="49" height="49"/>
-                </a>
-                <a href="https://anchor.fm/">
-                    <img src="./Assets/Socials/podcast.png" alt="podcast" width="49" height="49"/>
-                </a>
-            </div>
-            <p>designed and coded with ♡ by Magdeline Huang</p>
-            <p>last updated in January 2021</p>
-            <p>© <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> Magdeline Huang</p> <!-- updates to the current year automatically -->
-            <!-- <a href="https://analytics.google.com/analytics/web/provision/#/provision">stats for nerds</a> -->
-        </footer>
-    </body>
+        <div id="footer__socials">
+            <a href="mailto:magdeline0512@gmail.com">
+                <img src="./Assets/Socials/mail.png" alt="mail" width="49" height="49" />
+            </a>
+            <a href="https://www.linkedin.com/in/magdelinehuang/">
+                <img src="./Assets/Socials/linkedin.png" alt="linkedin" width="49" height="49" />
+            </a>
+            <a href="https://github.com/xsol05">
+                <img src="./Assets/Socials/github.png" alt="github" width="49" height="49" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCz_1mIreCWjmPu0TSPdBCVg">
+                <img src="./Assets/Socials/youtube.png" alt="youtube" width="49" height="49" />
+            </a>
+            <a href="https://magdelinehuang.medium.com/">
+                <img src="./Assets/Socials/medium.png" alt="medium" width="49" height="49" />
+            </a>
+            <a href="https://anchor.fm/">
+                <img src="./Assets/Socials/podcast.png" alt="podcast" width="49" height="49" />
+            </a>
+        </div>
+        <p>designed and coded with ♡ by Magdeline Huang</p>
+        <p>last updated in January 2021</p>
+        <p>©
+            <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script>
+            Magdeline Huang</p> <!-- updates to the current year automatically -->
+        <!-- <a href="https://analytics.google.com/analytics/web/provision/#/provision">stats for nerds</a> -->
+    </footer>
+</body>
 
-    <!-- <script>
+<!-- <script>
         /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
         function myFunction() {
             var x = document.getElementsByClassName("header__links");
@@ -161,5 +183,5 @@
             }
         }
     </script> -->
-    
+
 </html>

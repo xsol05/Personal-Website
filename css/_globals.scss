@@ -2,6 +2,7 @@ html {
     font-size: 100%;
     box-sizing: border-box; //includes padding in the final width
     background-color: $secondary;
+    height: 100%;
 }
 
 *, *::before, *::after {
@@ -15,6 +16,7 @@ body {
     line-height: 1.3;
     color: $primary;
     text-align: center;
+    height: 100%;
 }
 
 h1 {
@@ -81,11 +83,33 @@ h5 {
 .border {
     border-color: $primary;
     border-style: solid;
-    border-width: 3px
-    // position: fixed;
-    // bottom: 0px;
-    // top: auto;
+    border-width: 3px;
+    // Start fit viewport
+    // position: relative;
+    // height: calc(100vh - 15px);
+    // width: 100%;
+    // End fit viewport
 }
+
+//Fit viewport
+.full-height {
+    position: relative;
+    height: calc(100vh - 15px);
+    width: 100%;
+}
+.full-height-half { // for top section of each page
+    position: relative;
+    height: calc(80vh - 15px);
+    width: 100%;
+}
+
+// .full-height-normal {
+//     position: relative;
+//     height: 100vh;
+//     width: 100%;
+// }
+
+.ful
 
 // //Visibility
 // .hide-for-mobile {
